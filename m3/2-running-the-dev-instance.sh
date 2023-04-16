@@ -1,22 +1,22 @@
 # You should have already downloaded the Vault binary and placed it in folder in your $PATH
 # Start up a dev Vault server in one terminal
-vault server -dev -dev-root-token-id=86753098675309
+vlt server -dev -dev-root-token-id=86753098675309
 
 # Open a second terminal window
 export VAULT_ADDR='http://127.0.0.1:8200'
 
 # Try the CLI
 # Check for the root token
-vault token lookup
+vlt token lookup
 
 # List out the secrets engines
-vault secrets list
+vlt secrets list
 
 # Write a secret
-vault kv put secret/hg2g life=42
+vlt kv put secret/hg2g life=42
 
 # List out the auth methods
-vault auth list
+vlt auth list
 
 # Try the UI by going to http://127.0.0.1:8200
 

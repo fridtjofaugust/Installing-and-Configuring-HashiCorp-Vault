@@ -1,6 +1,6 @@
 variable "location" {
   type    = string
-  default = "East US"
+  default = "westeurope"
 }
 
 variable "aks_kubernetes_version" {

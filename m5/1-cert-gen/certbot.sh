@@ -6,7 +6,7 @@
 # and be ready to add a TXT record to your domain
 
 # First set the domain name you are going to create a certificate for
-domain_name=YOUR_DOMAIN_NAME
+domain_name=coffeeforeveryone.online
 
 # We are going to create two certificates: one for Azure VMs
 # and one for AKS
